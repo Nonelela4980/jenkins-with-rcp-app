@@ -1,12 +1,8 @@
-echo "===========================STARTED MAVEN========================"
+echo "===========================SHELL: STARTED MAVEN========================"
 echo "cleaning......."
-
 ls
-
 cd ../../parent
-
 mvn clean install package
-
 echo "===========================MAVEN CLEAN COMPLETED========================"
 
 
