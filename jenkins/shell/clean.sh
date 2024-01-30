@@ -3,7 +3,7 @@ echo "cleaning......."
 
 ls
 
-cd ../parent
+cd ../../parent
 
 mvn clean
 
