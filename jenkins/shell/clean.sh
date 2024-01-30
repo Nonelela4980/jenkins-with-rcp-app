@@ -5,6 +5,8 @@ ls
 
 cd ../../parent
 
-mvn clean
+mvn clean install package
 
 echo "===========================MAVEN CLEAN COMPLETED========================"
+
+
