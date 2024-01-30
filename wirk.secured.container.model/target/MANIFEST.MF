@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Model
+Bundle-SymbolicName: wirk.secured.container.model
+Bundle-Version: 1.0.0.202401301315
+Export-Package: wirk.secured.container.model.external.services
+Bundle-Vendor: NONELELA
+Automatic-Module-Name: wirk.secured.container.model
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=17))"
+
