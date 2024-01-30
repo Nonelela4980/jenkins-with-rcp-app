@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Services
+Bundle-SymbolicName: wirk.secured.container.services
+Bundle-Version: 1.0.0.qualifier
+Export-Package: wirk.secured.container.services
+Import-Package: org.osgi.service.component.annotations;version="1.3.0",
+ wirk.secured.container.model.external.services
+Service-Component: OSGI-INF/wirk.secured.container.services.FileService.xml
+Automatic-Module-Name: wirk.secured.container.services
+Bundle-ActivationPolicy: lazy
+Bundle-RequiredExecutionEnvironment: JavaSE-17

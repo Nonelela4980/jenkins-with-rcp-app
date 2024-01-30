@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<units size='1'>
+  <unit id='wirk.secured.container.services' version='1.0.0.202401300543' singleton='false' generation='2'>
+    <update id='wirk.secured.container.services' range='[0.0.0,1.0.0.202401300543)' severity='0'/>
+    <properties size='5'>
+      <property name='org.eclipse.equinox.p2.name' value='Services'/>
+      <property name='maven-groupId' value='wirk.secured.container'/>
+      <property name='maven-artifactId' value='wirk.secured.container.services'/>
+      <property name='maven-version' value='1.0.0-SNAPSHOT'/>
+      <property name='maven-type' value='eclipse-plugin'/>
+    </properties>
+    <provides size='5'>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='wirk.secured.container.services' version='1.0.0.202401300543'/>
+      <provided namespace='osgi.bundle' name='wirk.secured.container.services' version='1.0.0.202401300543'/>
+      <provided namespace='java.package' name='wirk.secured.container.services' version='0.0.0'/>
+      <provided namespace='osgi.identity' name='wirk.secured.container.services' version='1.0.0.202401300543'>
+        <properties size='1'>
+          <property name='type' value='osgi.bundle'/>
+        </properties>
+      </provided>
+      <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+    </provides>
+    <requires size='4'>
+      <required namespace='java.package' name='org.osgi.service.component.annotations' range='1.3.0'/>
+      <required namespace='java.package' name='wirk.secured.container.model.external.services' range='0.0.0'/>
+      <requiredProperties namespace='osgi.extender' match='(&amp;(osgi.extender=osgi.component)(version&gt;=1.5.0)(!(version&gt;=2.0.0)))'>
+        <description>
+          wirk.secured.container.services
+        </description>
+      </requiredProperties>
+      <requiredProperties namespace='osgi.ee' match='(&amp;(osgi.ee=JavaSE)(version=17))'>
+        <description>
+          wirk.secured.container.services
+        </description>
+      </requiredProperties>
+    </requires>
+    <artifacts size='1'>
+      <artifact classifier='osgi.bundle' id='wirk.secured.container.services' version='1.0.0.202401300543'/>
+    </artifacts>
+    <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+    <touchpointData size='1'>
+      <instructions size='1'>
+        <instruction key='manifest'>
+          Bundle-SymbolicName: wirk.secured.container.services&#xA;Bundle-Version: 1.0.0.202401300543&#xA;
+        </instruction>
+      </instructions>
+    </touchpointData>
+  </unit>
+</units>

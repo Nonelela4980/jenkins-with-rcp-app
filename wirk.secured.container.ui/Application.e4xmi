@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="ASCII"?>
+<application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmi:id="_h1CmELT5Ee6z-ZHUPMnsKw" elementId="wirk.secured.container.ui.application">
+  <children xsi:type="basic:Window" xmi:id="_M0igYLT8Ee6z-ZHUPMnsKw" elementId="wirk.secured.container.ui.window.wirksecuredcontainer" label="Wirk Secured Container" iconURI="platform:/plugin/wirk.secured.container.ui/images/logo.png">
+    <children xsi:type="basic:PartSashContainer" xmi:id="_PLAzELT9Ee6z-ZHUPMnsKw" elementId="wirk.secured.container.ui.partsashcontainer.0">
+      <children xsi:type="basic:Part" xmi:id="_RQobwLT9Ee6z-ZHUPMnsKw" elementId="wirk.secured.container.ui.part.0" contributionURI="bundleclass://wirk.secured.container.ui/wirk.secured.container.ui.views.MainView"/>
+    </children>
+  </children>
+  <addons xmi:id="_h1CmEbT5Ee6z-ZHUPMnsKw" elementId="org.eclipse.e4.core.commands.service" contributionURI="bundleclass://org.eclipse.e4.core.commands/org.eclipse.e4.core.commands.CommandServiceAddon"/>
+  <addons xmi:id="_h1CmErT5Ee6z-ZHUPMnsKw" elementId="org.eclipse.e4.ui.contexts.service" contributionURI="bundleclass://org.eclipse.e4.ui.services/org.eclipse.e4.ui.services.ContextServiceAddon"/>
+  <addons xmi:id="_h1CmE7T5Ee6z-ZHUPMnsKw" elementId="org.eclipse.e4.ui.bindings.service" contributionURI="bundleclass://org.eclipse.e4.ui.bindings/org.eclipse.e4.ui.bindings.BindingServiceAddon"/>
+  <addons xmi:id="_h1CmFLT5Ee6z-ZHUPMnsKw" elementId="org.eclipse.e4.ui.workbench.commands.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.CommandProcessingAddon"/>
+  <addons xmi:id="_h1CmFbT5Ee6z-ZHUPMnsKw" elementId="org.eclipse.e4.ui.workbench.contexts.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.ContextProcessingAddon"/>
+  <addons xmi:id="_h1CmFrT5Ee6z-ZHUPMnsKw" elementId="org.eclipse.e4.ui.workbench.bindings.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.swt/org.eclipse.e4.ui.workbench.swt.util.BindingProcessingAddon"/>
+  <addons xmi:id="_h1CmF7T5Ee6z-ZHUPMnsKw" elementId="org.eclipse.e4.ui.workbench.handler.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.HandlerProcessingAddon"/>
+</application:Application>

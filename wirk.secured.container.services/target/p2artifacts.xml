@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?artifactRepository version='1.1.0'?>
+<artifacts size='1'>
+  <artifact classifier='osgi.bundle' id='wirk.secured.container.services' version='1.0.0.202401300543'>
+    <properties size='9'>
+      <property name='artifact.size' value='3624'/>
+      <property name='download.size' value='3624'/>
+      <property name='download.checksum.sha-512' value='e4f4133a804611e5f95b24c7842cd976f011913c9ea14c227d0f41605622ed71bb3c0a7d4af785f54de3af762b26c5763074f30dfb0c8bc251e9e049b9ec5414'/>
+      <property name='download.checksum.sha-1' value='2d1ca4619c9b13ee28e762ae3f42a88a7729e7c0'/>
+      <property name='download.checksum.sha-256' value='31802599298a98f33f044a8f57d1e7047bdbecfb878b4b8dcb71778c38a2a471'/>
+      <property name='maven-groupId' value='wirk.secured.container'/>
+      <property name='maven-artifactId' value='wirk.secured.container.services'/>
+      <property name='maven-version' value='1.0.0-SNAPSHOT'/>
+      <property name='maven-type' value='eclipse-plugin'/>
+    </properties>
+  </artifact>
+</artifacts>

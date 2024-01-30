@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Services
+Bundle-SymbolicName: wirk.secured.container.services
+Bundle-Version: 1.0.0.202401300543
+Export-Package: wirk.secured.container.services
+Import-Package: org.osgi.service.component.annotations;version="1.3.0",w
+ irk.secured.container.model.external.services
+Service-Component: OSGI-INF/wirk.secured.container.services.FileService.
+ xml
+Automatic-Module-Name: wirk.secured.container.services
+Bundle-ActivationPolicy: lazy
+Require-Capability: osgi.extender;filter:="(&(osgi.extender=osgi.compone
+ nt)(version>=1.5.0)(!(version>=2.0.0)))",osgi.ee;filter:="(&(osgi.ee=Ja
+ vaSE)(version=17))"
+

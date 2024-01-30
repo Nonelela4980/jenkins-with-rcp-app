@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Model
+Bundle-SymbolicName: wirk.secured.container.model
+Bundle-Version: 1.0.0.qualifier
+Export-Package: wirk.secured.container.model.external.services
+Bundle-Vendor: NONELELA
+Automatic-Module-Name: wirk.secured.container.model
+Bundle-RequiredExecutionEnvironment: JavaSE-17

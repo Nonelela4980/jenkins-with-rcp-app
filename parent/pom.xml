@@ -1,0 +1,37 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>wirk.secured.container</groupId>
+  <artifactId>wirk.secured.parent</artifactId>
+  <version>1.0.0-SNAPSHOT</version>
+  <packaging>pom</packaging>
+  <name>Parent Project</name>
+  
+  <properties>
+        <tycho-version>4.0.4</tycho-version>
+  </properties>
+  
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.eclipse.tycho</groupId>
+                <artifactId>tycho-maven-plugin</artifactId>
+                <version>${tycho-version}</version>
+                <extensions>true</extensions>
+            </plugin>
+        </plugins>
+    </build>
+
+    <pluginRepositories>
+        <pluginRepository>
+            <id>tycho-snapshots</id>
+            <url>https://repo.eclipse.org/content/repositories/tycho-snapshots/</url>
+        </pluginRepository>
+    </pluginRepositories>
+    <modules>
+		<module>../wirk.secured.container.model</module>
+		<module>../wirk.secured.container.services</module>
+		<module>../wirk.secured.container.ui</module>		
+		<module>../wirk.secured.container.feature</module>
+		<module>../wirk.secured.container.product</module>
+    </modules>
+</project>
